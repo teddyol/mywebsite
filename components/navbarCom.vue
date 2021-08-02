@@ -1,5 +1,18 @@
 <template>
   <div class="navbar-box">
+    <nav class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <img src="~/static/images/logo.png">
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">首页</div>
+        <div class="level-item">新品</div>
+        <div class="level-item">活动</div>
+        <div class="level-item">关于</div>
+      </div>
+    </nav>
   </div>
 </template>
 

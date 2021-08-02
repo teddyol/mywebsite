@@ -4,14 +4,21 @@
     <master-com>
       <div slot="content"
            class="main-box">
-        <div class="columns is-mobile">
-          <div class="column">1</div>
-          <div class="column">2</div>
-          <div class="column">3</div>
-          <div class="column">4</div>
-        </div>
+        <nav class="level">
+          <div class="level-item">
+            <img src="~/static/images/logo.png">
+          </div>
+          <div class="level-item">
+            <img src="~/static/images/logo.png">
+          </div>
+          <div class="level-item">
+            <img src="~/static/images/logo.png">
+          </div>
+          <div class="level-item">
+            <img src="~/static/images/logo.png">
+          </div>
+        </nav>
       </div>
-      555
     </master-com>
   </div>
 </template>
