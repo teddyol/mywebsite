@@ -1,0 +1,53 @@
+{
+  "name": "nenuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "[xyi] <[516114183@qq.com]>",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "1818"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "cross-env SITE_ENV=dev nuxt generate",
+    "generate-test": "cross-env SITE_ENV=dev nuxt generate",
+    "generate-prod": "cross-env SITE_ENV=prod nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "bulma": "^0.9.1",
+    "core-js": "^3.8.3",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.14.12",
+    "qs.js": "^0.1.12"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.12.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}
