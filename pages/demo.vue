@@ -5,7 +5,7 @@
       <div slot="content"
            class="main-box">
         <!-- 引入本地图片 -->
-        <img src="~/static/images/test.png">
+        <!-- <img src="~/static/images/test.png"> -->
         <br>
 
         <nuxt-link to="/about"
